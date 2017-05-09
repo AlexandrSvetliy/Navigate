@@ -7,9 +7,12 @@
 //
 
 #import "ViewController.h"
+#import "ASXibViewController.h"
 
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UIButton *toFirstButton;
+@property (strong, nonatomic) IBOutlet UIButton *toXibButton;
+@property (strong, nonatomic) IBOutlet UIButton *toAnotherStoryButton;
 
 @end
 
@@ -32,14 +35,35 @@
     [self.toFirstButton.layer setShadowOffset:CGSizeMake(2, 4)];
     [self.toFirstButton.layer setShadowColor:[[UIColor colorWithRed:0.20 green:0.20 blue:0.20 alpha:1.0] CGColor]];
     [self.toFirstButton.layer setShadowOpacity:0.5];
+    
+    [self.toXibButton.layer setBorderWidth:1.0];
+    [self.toXibButton.layer setBorderColor:[[UIColor colorWithRed:0.20 green:0.20 blue:0.20 alpha:1.0] CGColor]];
+    [self.toXibButton.layer setCornerRadius:4.0];
+    [self.toXibButton.layer setShadowOffset:CGSizeMake(2, 4)];
+    [self.toXibButton.layer setShadowColor:[[UIColor colorWithRed:0.20 green:0.20 blue:0.20 alpha:1.0] CGColor]];
+    [self.toXibButton.layer setShadowOpacity:0.5];
+    
+    [self.toAnotherStoryButton.layer setBorderWidth:1.0];
+    [self.toAnotherStoryButton.layer setBorderColor:[[UIColor colorWithRed:0.20 green:0.20 blue:0.20 alpha:1.0] CGColor]];
+    [self.toAnotherStoryButton.layer setCornerRadius:4.0];
+    [self.toAnotherStoryButton.layer setShadowOffset:CGSizeMake(2, 4)];
+    [self.toAnotherStoryButton.layer setShadowColor:[[UIColor colorWithRed:0.20 green:0.20 blue:0.20 alpha:1.0] CGColor]];
+    [self.toAnotherStoryButton.layer setShadowOpacity:0.5];
+    
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 - (IBAction)toFirstButtonPressed:(UIButton *)sender {
     [self performSegueWithIdentifier:@"sequeToFirstController" sender:self];
+}
+- (IBAction)toXibButtonPressed:(UIButton *)sender {
+    ASXibViewController *viewController = [[ASXibViewController alloc] init];
+    [self.navigationController pushViewController:viewController animated:YES];
+    viewController.title = NSStringFromClass(ASXibViewController.class);
+}
+- (IBAction)toAnotherButtonPressed:(UIButton *)sender {
 }
 
 

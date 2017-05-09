@@ -18,6 +18,8 @@
 		A80F05391EC207AD00229623 /* ASFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A80F05381EC207AD00229623 /* ASFirstViewController.m */; };
 		A80F053C1EC2295500229623 /* ASModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A80F053B1EC2295500229623 /* ASModalViewController.m */; };
 		A80F053F1EC25CBF00229623 /* ASSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A80F053E1EC25CBF00229623 /* ASSecondViewController.m */; };
+		A80F05431EC2684100229623 /* ASXibViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A80F05411EC2684100229623 /* ASXibViewController.m */; };
+		A80F05441EC2684100229623 /* ASXibViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A80F05421EC2684100229623 /* ASXibViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +62,9 @@
 		A80F053B1EC2295500229623 /* ASModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASModalViewController.m; sourceTree = "<group>"; };
 		A80F053D1EC25CBF00229623 /* ASSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASSecondViewController.h; sourceTree = "<group>"; };
 		A80F053E1EC25CBF00229623 /* ASSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASSecondViewController.m; sourceTree = "<group>"; };
+		A80F05401EC2684100229623 /* ASXibViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASXibViewController.h; sourceTree = "<group>"; };
+		A80F05411EC2684100229623 /* ASXibViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASXibViewController.m; sourceTree = "<group>"; };
+		A80F05421EC2684100229623 /* ASXibViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ASXibViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +125,9 @@
 				A80F053B1EC2295500229623 /* ASModalViewController.m */,
 				A80F053D1EC25CBF00229623 /* ASSecondViewController.h */,
 				A80F053E1EC25CBF00229623 /* ASSecondViewController.m */,
+				A80F05401EC2684100229623 /* ASXibViewController.h */,
+				A80F05411EC2684100229623 /* ASXibViewController.m */,
+				A80F05421EC2684100229623 /* ASXibViewController.xib */,
 				A80F050D1EC2030C00229623 /* Main.storyboard */,
 				A80F05101EC2030C00229623 /* Assets.xcassets */,
 				A80F05121EC2030C00229623 /* LaunchScreen.storyboard */,
@@ -267,6 +275,7 @@
 			files = (
 				A80F05141EC2030C00229623 /* LaunchScreen.storyboard in Resources */,
 				A80F05111EC2030C00229623 /* Assets.xcassets in Resources */,
+				A80F05441EC2684100229623 /* ASXibViewController.xib in Resources */,
 				A80F050F1EC2030C00229623 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,6 +305,7 @@
 				A80F05391EC207AD00229623 /* ASFirstViewController.m in Sources */,
 				A80F05091EC2030C00229623 /* AppDelegate.m in Sources */,
 				A80F05061EC2030C00229623 /* main.m in Sources */,
+				A80F05431EC2684100229623 /* ASXibViewController.m in Sources */,
 				A80F053F1EC25CBF00229623 /* ASSecondViewController.m in Sources */,
 				A80F053C1EC2295500229623 /* ASModalViewController.m in Sources */,
 			);

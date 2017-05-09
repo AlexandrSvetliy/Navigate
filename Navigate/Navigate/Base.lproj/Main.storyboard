@@ -108,11 +108,48 @@
                                             <action selector="toFirstButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uPu-NT-8Jj"/>
                                         </connections>
                                     </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XVp-TQ-6Qs">
+                                        <rect key="frame" x="117" y="176" width="140" height="30"/>
+                                        <color key="backgroundColor" red="0.91372549020000005" green="0.3294117647" blue="0.12549019610000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="140" id="Cbg-ju-Qtk"/>
+                                            <constraint firstAttribute="height" constant="30" id="dev-JJ-IKy"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="12"/>
+                                        <state key="normal" title="To XibController &gt;">
+                                            <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="toXibButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dKR-4q-YvV"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hkS-RR-0pS">
+                                        <rect key="frame" x="117" y="231" width="140" height="30"/>
+                                        <color key="backgroundColor" red="0.91372549020000005" green="0.3294117647" blue="0.12549019610000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="140" id="SlE-xD-f1N"/>
+                                            <constraint firstAttribute="height" constant="30" id="tGR-z1-Tkb"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="12"/>
+                                        <state key="normal" title="To Another Story &gt;">
+                                            <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="toAnotherButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="64g-FT-RjY"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.46666666666666667" green="0.12941176470588234" blue="0.43529411764705883" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
+                                    <constraint firstItem="hkS-RR-0pS" firstAttribute="leading" secondItem="XVp-TQ-6Qs" secondAttribute="leading" id="19o-Ov-s8A"/>
+                                    <constraint firstItem="XVp-TQ-6Qs" firstAttribute="top" secondItem="LIM-KZ-DKQ" secondAttribute="bottom" constant="26" id="MBm-zt-oyH"/>
+                                    <constraint firstItem="hkS-RR-0pS" firstAttribute="top" secondItem="XVp-TQ-6Qs" secondAttribute="bottom" constant="25" id="NZs-Bt-8YS"/>
+                                    <constraint firstItem="XVp-TQ-6Qs" firstAttribute="leading" secondItem="LIM-KZ-DKQ" secondAttribute="leading" id="Pzi-zJ-MAh"/>
+                                    <constraint firstItem="XVp-TQ-6Qs" firstAttribute="centerX" secondItem="m4k-MX-FdN" secondAttribute="centerX" id="UGW-md-FB1"/>
+                                    <constraint firstItem="XVp-TQ-6Qs" firstAttribute="trailing" secondItem="LIM-KZ-DKQ" secondAttribute="trailing" id="Ueq-Rh-Gpo"/>
                                     <constraint firstItem="LIM-KZ-DKQ" firstAttribute="centerX" secondItem="m4k-MX-FdN" secondAttribute="centerX" id="YY0-CP-uJh"/>
                                     <constraint firstItem="LIM-KZ-DKQ" firstAttribute="top" secondItem="m4k-MX-FdN" secondAttribute="top" constant="120" id="ZOi-WJ-wyV"/>
+                                    <constraint firstItem="hkS-RR-0pS" firstAttribute="centerX" secondItem="m4k-MX-FdN" secondAttribute="centerX" id="hye-3C-Ora"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -127,7 +164,9 @@
                     <navigationItem key="navigationItem" id="ONA-BA-Wgg"/>
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
                     <connections>
+                        <outlet property="toAnotherStoryButton" destination="hkS-RR-0pS" id="WiT-q4-M2V"/>
                         <outlet property="toFirstButton" destination="LIM-KZ-DKQ" id="rLj-qi-p3a"/>
+                        <outlet property="toXibButton" destination="XVp-TQ-6Qs" id="hWA-Ea-XIQ"/>
                         <segue destination="b1M-jN-F57" kind="show" identifier="sequeToFirstController" id="xl2-t1-f3f"/>
                     </connections>
                 </viewController>
@@ -238,7 +277,6 @@
                                         </state>
                                         <connections>
                                             <action selector="backButtonPressed:" destination="uJU-2h-GH7" eventType="touchUpInside" id="WS9-LV-5wl"/>
-                                            <action selector="closeButtonPressed:" destination="H2m-6Y-kAp" eventType="touchUpInside" id="hr9-a7-wWF"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f8r-DE-lkw">
@@ -253,7 +291,6 @@
                                             <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
-                                            <action selector="closeButtonPressed:" destination="H2m-6Y-kAp" eventType="touchUpInside" id="IJS-Ho-FOf"/>
                                             <action selector="mainButtonPressed:" destination="uJU-2h-GH7" eventType="touchUpInside" id="EvT-Lc-lVh"/>
                                         </connections>
                                     </button>
