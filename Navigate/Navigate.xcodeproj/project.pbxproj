@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A802E47B1EC36D1B008EAA8C /* AnotherStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A802E47A1EC36D1B008EAA8C /* AnotherStoryboard.storyboard */; };
+		A802E47E1EC37A1C008EAA8C /* ASAnotherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A802E47D1EC37A1C008EAA8C /* ASAnotherViewController.m */; };
 		A80F05061EC2030C00229623 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A80F05051EC2030C00229623 /* main.m */; };
 		A80F05091EC2030C00229623 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A80F05081EC2030C00229623 /* AppDelegate.m */; };
 		A80F050C1EC2030C00229623 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A80F050B1EC2030C00229623 /* ViewController.m */; };
@@ -40,6 +42,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A802E47A1EC36D1B008EAA8C /* AnotherStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AnotherStoryboard.storyboard; sourceTree = "<group>"; };
+		A802E47C1EC37A1C008EAA8C /* ASAnotherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASAnotherViewController.h; sourceTree = "<group>"; };
+		A802E47D1EC37A1C008EAA8C /* ASAnotherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASAnotherViewController.m; sourceTree = "<group>"; };
 		A80F05011EC2030C00229623 /* Navigate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Navigate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A80F05051EC2030C00229623 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A80F05071EC2030C00229623 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -125,10 +130,13 @@
 				A80F053B1EC2295500229623 /* ASModalViewController.m */,
 				A80F053D1EC25CBF00229623 /* ASSecondViewController.h */,
 				A80F053E1EC25CBF00229623 /* ASSecondViewController.m */,
+				A802E47C1EC37A1C008EAA8C /* ASAnotherViewController.h */,
+				A802E47D1EC37A1C008EAA8C /* ASAnotherViewController.m */,
 				A80F05401EC2684100229623 /* ASXibViewController.h */,
 				A80F05411EC2684100229623 /* ASXibViewController.m */,
 				A80F05421EC2684100229623 /* ASXibViewController.xib */,
 				A80F050D1EC2030C00229623 /* Main.storyboard */,
+				A802E47A1EC36D1B008EAA8C /* AnotherStoryboard.storyboard */,
 				A80F05101EC2030C00229623 /* Assets.xcassets */,
 				A80F05121EC2030C00229623 /* LaunchScreen.storyboard */,
 				A80F05151EC2030C00229623 /* Info.plist */,
@@ -275,6 +283,7 @@
 			files = (
 				A80F05141EC2030C00229623 /* LaunchScreen.storyboard in Resources */,
 				A80F05111EC2030C00229623 /* Assets.xcassets in Resources */,
+				A802E47B1EC36D1B008EAA8C /* AnotherStoryboard.storyboard in Resources */,
 				A80F05441EC2684100229623 /* ASXibViewController.xib in Resources */,
 				A80F050F1EC2030C00229623 /* Main.storyboard in Resources */,
 			);
@@ -301,6 +310,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A802E47E1EC37A1C008EAA8C /* ASAnotherViewController.m in Sources */,
 				A80F050C1EC2030C00229623 /* ViewController.m in Sources */,
 				A80F05391EC207AD00229623 /* ASFirstViewController.m in Sources */,
 				A80F05091EC2030C00229623 /* AppDelegate.m in Sources */,
@@ -545,6 +555,7 @@
 				A80F05301EC2030C00229623 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A80F05311EC2030C00229623 /* Build configuration list for PBXNativeTarget "NavigateTests" */ = {
 			isa = XCConfigurationList;
@@ -553,6 +564,7 @@
 				A80F05331EC2030C00229623 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A80F05341EC2030C00229623 /* Build configuration list for PBXNativeTarget "NavigateUITests" */ = {
 			isa = XCConfigurationList;
@@ -561,6 +573,7 @@
 				A80F05361EC2030C00229623 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

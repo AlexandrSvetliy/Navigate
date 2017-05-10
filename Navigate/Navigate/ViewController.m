@@ -13,7 +13,6 @@
 @property (weak, nonatomic) IBOutlet UIButton *toFirstButton;
 @property (strong, nonatomic) IBOutlet UIButton *toXibButton;
 @property (strong, nonatomic) IBOutlet UIButton *toAnotherStoryButton;
-
 @end
 
 @implementation ViewController
@@ -64,6 +63,10 @@
     viewController.title = NSStringFromClass(ASXibViewController.class);
 }
 - (IBAction)toAnotherButtonPressed:(UIButton *)sender {
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"AnotherStoryboard" bundle:nil];
+    UIViewController *viewController = [storyboard instantiateViewControllerWithIdentifier:@"ASAnotherViewControllerID"];
+    viewController.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal;
+    [self presentViewController:viewController animated:YES completion:NULL];
 }
 
 
