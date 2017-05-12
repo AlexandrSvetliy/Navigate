@@ -11,7 +11,6 @@
 @interface ASSecondViewController ()
 @property (strong, nonatomic) IBOutlet UIButton *mainButton;
 @property (strong, nonatomic) IBOutlet UIButton *backButton;
-
 @end
 
 @implementation ASSecondViewController

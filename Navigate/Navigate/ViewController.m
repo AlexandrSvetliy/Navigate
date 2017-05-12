@@ -7,7 +7,6 @@
 //
 
 #import "ViewController.h"
-#import "ASXibViewController.h"
 
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UIButton *toFirstButton;
@@ -25,9 +24,10 @@
 - (void)drawInit {
     [self.navigationController.navigationBar setBarTintColor:[UIColor colorWithRed:0.17 green:0.00 blue:0.12 alpha:1.0]];
     [self.navigationController.navigationBar setTintColor:[UIColor colorWithRed:0.93 green:0.46 blue:0.30 alpha:1.0]];
-    [self.navigationController.navigationBar setTitleTextAttributes:@{NSForegroundColorAttributeName : [UIColor colorWithRed:0.95 green:0.91 blue:0.94 alpha:1.0]}];
+    [self.navigationController.navigationBar setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor colorWithRed:0.95 green:0.91 blue:0.94 alpha:1.0]}];
     self.navigationController.navigationBar.translucent = NO;
     self.navigationController.navigationBar.barStyle = UIStatusBarStyleLightContent;
+    
     [self.toFirstButton.layer setBorderWidth:1.0];
     [self.toFirstButton.layer setBorderColor:[[UIColor colorWithRed:0.20 green:0.20 blue:0.20 alpha:1.0] CGColor]];
     [self.toFirstButton.layer setCornerRadius:4.0];

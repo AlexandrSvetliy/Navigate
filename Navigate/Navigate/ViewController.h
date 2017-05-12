@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ASXibViewController.h"
 
 @interface ViewController : UIViewController
 

@@ -22,6 +22,10 @@
 		A80F053F1EC25CBF00229623 /* ASSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A80F053E1EC25CBF00229623 /* ASSecondViewController.m */; };
 		A80F05431EC2684100229623 /* ASXibViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A80F05411EC2684100229623 /* ASXibViewController.m */; };
 		A80F05441EC2684100229623 /* ASXibViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A80F05421EC2684100229623 /* ASXibViewController.xib */; };
+		A81126DF1EC644E1002ECAE9 /* ASNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A81126DE1EC644E1002ECAE9 /* ASNavigationController.m */; };
+		A81126E21EC64539002ECAE9 /* ASTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = A81126E11EC64539002ECAE9 /* ASTabBarController.m */; };
+		A81126E51EC65617002ECAE9 /* ASAnotherRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A81126E41EC65617002ECAE9 /* ASAnotherRootViewController.m */; };
+		A81126E81EC659E1002ECAE9 /* ASTheEndViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A81126E71EC659E1002ECAE9 /* ASTheEndViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +74,14 @@
 		A80F05401EC2684100229623 /* ASXibViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASXibViewController.h; sourceTree = "<group>"; };
 		A80F05411EC2684100229623 /* ASXibViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASXibViewController.m; sourceTree = "<group>"; };
 		A80F05421EC2684100229623 /* ASXibViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ASXibViewController.xib; sourceTree = "<group>"; };
+		A81126DD1EC644E1002ECAE9 /* ASNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASNavigationController.h; sourceTree = "<group>"; };
+		A81126DE1EC644E1002ECAE9 /* ASNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASNavigationController.m; sourceTree = "<group>"; };
+		A81126E01EC64539002ECAE9 /* ASTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASTabBarController.h; sourceTree = "<group>"; };
+		A81126E11EC64539002ECAE9 /* ASTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASTabBarController.m; sourceTree = "<group>"; };
+		A81126E31EC65617002ECAE9 /* ASAnotherRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASAnotherRootViewController.h; sourceTree = "<group>"; };
+		A81126E41EC65617002ECAE9 /* ASAnotherRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASAnotherRootViewController.m; sourceTree = "<group>"; };
+		A81126E61EC659E1002ECAE9 /* ASTheEndViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASTheEndViewController.h; sourceTree = "<group>"; };
+		A81126E71EC659E1002ECAE9 /* ASTheEndViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASTheEndViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +147,14 @@
 				A80F05401EC2684100229623 /* ASXibViewController.h */,
 				A80F05411EC2684100229623 /* ASXibViewController.m */,
 				A80F05421EC2684100229623 /* ASXibViewController.xib */,
+				A81126DD1EC644E1002ECAE9 /* ASNavigationController.h */,
+				A81126DE1EC644E1002ECAE9 /* ASNavigationController.m */,
+				A81126E01EC64539002ECAE9 /* ASTabBarController.h */,
+				A81126E11EC64539002ECAE9 /* ASTabBarController.m */,
+				A81126E31EC65617002ECAE9 /* ASAnotherRootViewController.h */,
+				A81126E41EC65617002ECAE9 /* ASAnotherRootViewController.m */,
+				A81126E61EC659E1002ECAE9 /* ASTheEndViewController.h */,
+				A81126E71EC659E1002ECAE9 /* ASTheEndViewController.m */,
 				A80F050D1EC2030C00229623 /* Main.storyboard */,
 				A802E47A1EC36D1B008EAA8C /* AnotherStoryboard.storyboard */,
 				A80F05101EC2030C00229623 /* Assets.xcassets */,
@@ -311,10 +331,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				A802E47E1EC37A1C008EAA8C /* ASAnotherViewController.m in Sources */,
+				A81126DF1EC644E1002ECAE9 /* ASNavigationController.m in Sources */,
+				A81126E81EC659E1002ECAE9 /* ASTheEndViewController.m in Sources */,
 				A80F050C1EC2030C00229623 /* ViewController.m in Sources */,
 				A80F05391EC207AD00229623 /* ASFirstViewController.m in Sources */,
 				A80F05091EC2030C00229623 /* AppDelegate.m in Sources */,
+				A81126E21EC64539002ECAE9 /* ASTabBarController.m in Sources */,
 				A80F05061EC2030C00229623 /* main.m in Sources */,
+				A81126E51EC65617002ECAE9 /* ASAnotherRootViewController.m in Sources */,
 				A80F05431EC2684100229623 /* ASXibViewController.m in Sources */,
 				A80F053F1EC25CBF00229623 /* ASSecondViewController.m in Sources */,
 				A80F053C1EC2295500229623 /* ASModalViewController.m in Sources */,
