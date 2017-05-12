@@ -7,25 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A802E47B1EC36D1B008EAA8C /* AnotherStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A802E47A1EC36D1B008EAA8C /* AnotherStoryboard.storyboard */; };
-		A802E47E1EC37A1C008EAA8C /* ASAnotherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A802E47D1EC37A1C008EAA8C /* ASAnotherViewController.m */; };
 		A80F05061EC2030C00229623 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A80F05051EC2030C00229623 /* main.m */; };
-		A80F05091EC2030C00229623 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A80F05081EC2030C00229623 /* AppDelegate.m */; };
-		A80F050C1EC2030C00229623 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A80F050B1EC2030C00229623 /* ViewController.m */; };
 		A80F050F1EC2030C00229623 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A80F050D1EC2030C00229623 /* Main.storyboard */; };
 		A80F05111EC2030C00229623 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A80F05101EC2030C00229623 /* Assets.xcassets */; };
 		A80F05141EC2030C00229623 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A80F05121EC2030C00229623 /* LaunchScreen.storyboard */; };
 		A80F051F1EC2030C00229623 /* NavigateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A80F051E1EC2030C00229623 /* NavigateTests.m */; };
 		A80F052A1EC2030C00229623 /* NavigateUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A80F05291EC2030C00229623 /* NavigateUITests.m */; };
-		A80F05391EC207AD00229623 /* ASFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A80F05381EC207AD00229623 /* ASFirstViewController.m */; };
-		A80F053C1EC2295500229623 /* ASModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A80F053B1EC2295500229623 /* ASModalViewController.m */; };
-		A80F053F1EC25CBF00229623 /* ASSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A80F053E1EC25CBF00229623 /* ASSecondViewController.m */; };
-		A80F05431EC2684100229623 /* ASXibViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A80F05411EC2684100229623 /* ASXibViewController.m */; };
-		A80F05441EC2684100229623 /* ASXibViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A80F05421EC2684100229623 /* ASXibViewController.xib */; };
-		A81126DF1EC644E1002ECAE9 /* ASNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A81126DE1EC644E1002ECAE9 /* ASNavigationController.m */; };
-		A81126E21EC64539002ECAE9 /* ASTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = A81126E11EC64539002ECAE9 /* ASTabBarController.m */; };
-		A81126E51EC65617002ECAE9 /* ASAnotherRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A81126E41EC65617002ECAE9 /* ASAnotherRootViewController.m */; };
-		A81126E81EC659E1002ECAE9 /* ASTheEndViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A81126E71EC659E1002ECAE9 /* ASTheEndViewController.m */; };
+		A81127041EC667D5002ECAE9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A81126EB1EC667D5002ECAE9 /* AppDelegate.m */; };
+		A81127051EC667D5002ECAE9 /* AnotherStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A81126ED1EC667D5002ECAE9 /* AnotherStoryboard.storyboard */; };
+		A81127061EC667D5002ECAE9 /* ASXibViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A81126EE1EC667D5002ECAE9 /* ASXibViewController.xib */; };
+		A81127071EC667D5002ECAE9 /* ASAnotherRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A81126F11EC667D5002ECAE9 /* ASAnotherRootViewController.m */; };
+		A81127081EC667D5002ECAE9 /* ASAnotherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A81126F31EC667D5002ECAE9 /* ASAnotherViewController.m */; };
+		A81127091EC667D5002ECAE9 /* ASFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A81126F51EC667D5002ECAE9 /* ASFirstViewController.m */; };
+		A811270A1EC667D5002ECAE9 /* ASModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A81126F71EC667D5002ECAE9 /* ASModalViewController.m */; };
+		A811270B1EC667D5002ECAE9 /* ASNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A81126F91EC667D5002ECAE9 /* ASNavigationController.m */; };
+		A811270C1EC667D5002ECAE9 /* ASSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A81126FB1EC667D5002ECAE9 /* ASSecondViewController.m */; };
+		A811270D1EC667D5002ECAE9 /* ASTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = A81126FD1EC667D5002ECAE9 /* ASTabBarController.m */; };
+		A811270E1EC667D5002ECAE9 /* ASTheEndViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A81126FF1EC667D5002ECAE9 /* ASTheEndViewController.m */; };
+		A811270F1EC667D5002ECAE9 /* ASXibViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A81127011EC667D5002ECAE9 /* ASXibViewController.m */; };
+		A81127101EC667D5002ECAE9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A81127031EC667D5002ECAE9 /* ViewController.m */; };
+		A81127161EC66B72002ECAE9 /* cof_orange_hex.png in Resources */ = {isa = PBXBuildFile; fileRef = A81127151EC66B72002ECAE9 /* cof_orange_hex.png */; settings = {ASSET_TAGS = ("ubuntu-logo", ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,15 +47,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A802E47A1EC36D1B008EAA8C /* AnotherStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AnotherStoryboard.storyboard; sourceTree = "<group>"; };
-		A802E47C1EC37A1C008EAA8C /* ASAnotherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASAnotherViewController.h; sourceTree = "<group>"; };
-		A802E47D1EC37A1C008EAA8C /* ASAnotherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASAnotherViewController.m; sourceTree = "<group>"; };
 		A80F05011EC2030C00229623 /* Navigate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Navigate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A80F05051EC2030C00229623 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A80F05071EC2030C00229623 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		A80F05081EC2030C00229623 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A80F050A1EC2030C00229623 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A80F050B1EC2030C00229623 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A80F050E1EC2030C00229623 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A80F05101EC2030C00229623 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A80F05131EC2030C00229623 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -65,23 +59,31 @@
 		A80F05251EC2030C00229623 /* NavigateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavigateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A80F05291EC2030C00229623 /* NavigateUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavigateUITests.m; sourceTree = "<group>"; };
 		A80F052B1EC2030C00229623 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A80F05371EC207AD00229623 /* ASFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASFirstViewController.h; sourceTree = "<group>"; };
-		A80F05381EC207AD00229623 /* ASFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASFirstViewController.m; sourceTree = "<group>"; };
-		A80F053A1EC2295500229623 /* ASModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASModalViewController.h; sourceTree = "<group>"; };
-		A80F053B1EC2295500229623 /* ASModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASModalViewController.m; sourceTree = "<group>"; };
-		A80F053D1EC25CBF00229623 /* ASSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASSecondViewController.h; sourceTree = "<group>"; };
-		A80F053E1EC25CBF00229623 /* ASSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASSecondViewController.m; sourceTree = "<group>"; };
-		A80F05401EC2684100229623 /* ASXibViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASXibViewController.h; sourceTree = "<group>"; };
-		A80F05411EC2684100229623 /* ASXibViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASXibViewController.m; sourceTree = "<group>"; };
-		A80F05421EC2684100229623 /* ASXibViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ASXibViewController.xib; sourceTree = "<group>"; };
-		A81126DD1EC644E1002ECAE9 /* ASNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASNavigationController.h; sourceTree = "<group>"; };
-		A81126DE1EC644E1002ECAE9 /* ASNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASNavigationController.m; sourceTree = "<group>"; };
-		A81126E01EC64539002ECAE9 /* ASTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASTabBarController.h; sourceTree = "<group>"; };
-		A81126E11EC64539002ECAE9 /* ASTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASTabBarController.m; sourceTree = "<group>"; };
-		A81126E31EC65617002ECAE9 /* ASAnotherRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASAnotherRootViewController.h; sourceTree = "<group>"; };
-		A81126E41EC65617002ECAE9 /* ASAnotherRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASAnotherRootViewController.m; sourceTree = "<group>"; };
-		A81126E61EC659E1002ECAE9 /* ASTheEndViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASTheEndViewController.h; sourceTree = "<group>"; };
-		A81126E71EC659E1002ECAE9 /* ASTheEndViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASTheEndViewController.m; sourceTree = "<group>"; };
+		A81126EA1EC667D5002ECAE9 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A81126EB1EC667D5002ECAE9 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A81126ED1EC667D5002ECAE9 /* AnotherStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AnotherStoryboard.storyboard; sourceTree = "<group>"; };
+		A81126EE1EC667D5002ECAE9 /* ASXibViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ASXibViewController.xib; sourceTree = "<group>"; };
+		A81126F01EC667D5002ECAE9 /* ASAnotherRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASAnotherRootViewController.h; sourceTree = "<group>"; };
+		A81126F11EC667D5002ECAE9 /* ASAnotherRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASAnotherRootViewController.m; sourceTree = "<group>"; };
+		A81126F21EC667D5002ECAE9 /* ASAnotherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASAnotherViewController.h; sourceTree = "<group>"; };
+		A81126F31EC667D5002ECAE9 /* ASAnotherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASAnotherViewController.m; sourceTree = "<group>"; };
+		A81126F41EC667D5002ECAE9 /* ASFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASFirstViewController.h; sourceTree = "<group>"; };
+		A81126F51EC667D5002ECAE9 /* ASFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASFirstViewController.m; sourceTree = "<group>"; };
+		A81126F61EC667D5002ECAE9 /* ASModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASModalViewController.h; sourceTree = "<group>"; };
+		A81126F71EC667D5002ECAE9 /* ASModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASModalViewController.m; sourceTree = "<group>"; };
+		A81126F81EC667D5002ECAE9 /* ASNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASNavigationController.h; sourceTree = "<group>"; };
+		A81126F91EC667D5002ECAE9 /* ASNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASNavigationController.m; sourceTree = "<group>"; };
+		A81126FA1EC667D5002ECAE9 /* ASSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASSecondViewController.h; sourceTree = "<group>"; };
+		A81126FB1EC667D5002ECAE9 /* ASSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASSecondViewController.m; sourceTree = "<group>"; };
+		A81126FC1EC667D5002ECAE9 /* ASTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASTabBarController.h; sourceTree = "<group>"; };
+		A81126FD1EC667D5002ECAE9 /* ASTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASTabBarController.m; sourceTree = "<group>"; };
+		A81126FE1EC667D5002ECAE9 /* ASTheEndViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASTheEndViewController.h; sourceTree = "<group>"; };
+		A81126FF1EC667D5002ECAE9 /* ASTheEndViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASTheEndViewController.m; sourceTree = "<group>"; };
+		A81127001EC667D5002ECAE9 /* ASXibViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASXibViewController.h; sourceTree = "<group>"; };
+		A81127011EC667D5002ECAE9 /* ASXibViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASXibViewController.m; sourceTree = "<group>"; };
+		A81127021EC667D5002ECAE9 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A81127031EC667D5002ECAE9 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A81127151EC66B72002ECAE9 /* cof_orange_hex.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cof_orange_hex.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,33 +134,9 @@
 		A80F05031EC2030C00229623 /* Navigate */ = {
 			isa = PBXGroup;
 			children = (
-				A80F05071EC2030C00229623 /* AppDelegate.h */,
-				A80F05081EC2030C00229623 /* AppDelegate.m */,
-				A80F050A1EC2030C00229623 /* ViewController.h */,
-				A80F050B1EC2030C00229623 /* ViewController.m */,
-				A80F05371EC207AD00229623 /* ASFirstViewController.h */,
-				A80F05381EC207AD00229623 /* ASFirstViewController.m */,
-				A80F053A1EC2295500229623 /* ASModalViewController.h */,
-				A80F053B1EC2295500229623 /* ASModalViewController.m */,
-				A80F053D1EC25CBF00229623 /* ASSecondViewController.h */,
-				A80F053E1EC25CBF00229623 /* ASSecondViewController.m */,
-				A802E47C1EC37A1C008EAA8C /* ASAnotherViewController.h */,
-				A802E47D1EC37A1C008EAA8C /* ASAnotherViewController.m */,
-				A80F05401EC2684100229623 /* ASXibViewController.h */,
-				A80F05411EC2684100229623 /* ASXibViewController.m */,
-				A80F05421EC2684100229623 /* ASXibViewController.xib */,
-				A81126DD1EC644E1002ECAE9 /* ASNavigationController.h */,
-				A81126DE1EC644E1002ECAE9 /* ASNavigationController.m */,
-				A81126E01EC64539002ECAE9 /* ASTabBarController.h */,
-				A81126E11EC64539002ECAE9 /* ASTabBarController.m */,
-				A81126E31EC65617002ECAE9 /* ASAnotherRootViewController.h */,
-				A81126E41EC65617002ECAE9 /* ASAnotherRootViewController.m */,
-				A81126E61EC659E1002ECAE9 /* ASTheEndViewController.h */,
-				A81126E71EC659E1002ECAE9 /* ASTheEndViewController.m */,
-				A80F050D1EC2030C00229623 /* Main.storyboard */,
-				A802E47A1EC36D1B008EAA8C /* AnotherStoryboard.storyboard */,
+				A81126E91EC667D5002ECAE9 /* Delegates */,
+				A81126EC1EC667D5002ECAE9 /* UI */,
 				A80F05101EC2030C00229623 /* Assets.xcassets */,
-				A80F05121EC2030C00229623 /* LaunchScreen.storyboard */,
 				A80F05151EC2030C00229623 /* Info.plist */,
 				A80F05041EC2030C00229623 /* Supporting Files */,
 			);
@@ -189,6 +167,63 @@
 				A80F052B1EC2030C00229623 /* Info.plist */,
 			);
 			path = NavigateUITests;
+			sourceTree = "<group>";
+		};
+		A81126E91EC667D5002ECAE9 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				A81126EA1EC667D5002ECAE9 /* AppDelegate.h */,
+				A81126EB1EC667D5002ECAE9 /* AppDelegate.m */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		A81126EC1EC667D5002ECAE9 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				A81127141EC66B72002ECAE9 /* Images */,
+				A81126EF1EC667D5002ECAE9 /* ViewControllers */,
+				A81126ED1EC667D5002ECAE9 /* AnotherStoryboard.storyboard */,
+				A81126EE1EC667D5002ECAE9 /* ASXibViewController.xib */,
+				A80F050D1EC2030C00229623 /* Main.storyboard */,
+				A80F05121EC2030C00229623 /* LaunchScreen.storyboard */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		A81126EF1EC667D5002ECAE9 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A81126F01EC667D5002ECAE9 /* ASAnotherRootViewController.h */,
+				A81126F11EC667D5002ECAE9 /* ASAnotherRootViewController.m */,
+				A81126F21EC667D5002ECAE9 /* ASAnotherViewController.h */,
+				A81126F31EC667D5002ECAE9 /* ASAnotherViewController.m */,
+				A81126F41EC667D5002ECAE9 /* ASFirstViewController.h */,
+				A81126F51EC667D5002ECAE9 /* ASFirstViewController.m */,
+				A81126F61EC667D5002ECAE9 /* ASModalViewController.h */,
+				A81126F71EC667D5002ECAE9 /* ASModalViewController.m */,
+				A81126F81EC667D5002ECAE9 /* ASNavigationController.h */,
+				A81126F91EC667D5002ECAE9 /* ASNavigationController.m */,
+				A81126FA1EC667D5002ECAE9 /* ASSecondViewController.h */,
+				A81126FB1EC667D5002ECAE9 /* ASSecondViewController.m */,
+				A81126FC1EC667D5002ECAE9 /* ASTabBarController.h */,
+				A81126FD1EC667D5002ECAE9 /* ASTabBarController.m */,
+				A81126FE1EC667D5002ECAE9 /* ASTheEndViewController.h */,
+				A81126FF1EC667D5002ECAE9 /* ASTheEndViewController.m */,
+				A81127001EC667D5002ECAE9 /* ASXibViewController.h */,
+				A81127011EC667D5002ECAE9 /* ASXibViewController.m */,
+				A81127021EC667D5002ECAE9 /* ViewController.h */,
+				A81127031EC667D5002ECAE9 /* ViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		A81127141EC66B72002ECAE9 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				A81127151EC66B72002ECAE9 /* cof_orange_hex.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,6 +289,9 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = AS;
+				KnownAssetTags = (
+					"ubuntu-logo",
+				);
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "Александр Светлый";
 				TargetAttributes = {
@@ -301,10 +339,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A81127161EC66B72002ECAE9 /* cof_orange_hex.png in Resources */,
 				A80F05141EC2030C00229623 /* LaunchScreen.storyboard in Resources */,
+				A81127061EC667D5002ECAE9 /* ASXibViewController.xib in Resources */,
+				A81127051EC667D5002ECAE9 /* AnotherStoryboard.storyboard in Resources */,
 				A80F05111EC2030C00229623 /* Assets.xcassets in Resources */,
-				A802E47B1EC36D1B008EAA8C /* AnotherStoryboard.storyboard in Resources */,
-				A80F05441EC2684100229623 /* ASXibViewController.xib in Resources */,
 				A80F050F1EC2030C00229623 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -330,18 +369,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A802E47E1EC37A1C008EAA8C /* ASAnotherViewController.m in Sources */,
-				A81126DF1EC644E1002ECAE9 /* ASNavigationController.m in Sources */,
-				A81126E81EC659E1002ECAE9 /* ASTheEndViewController.m in Sources */,
-				A80F050C1EC2030C00229623 /* ViewController.m in Sources */,
-				A80F05391EC207AD00229623 /* ASFirstViewController.m in Sources */,
-				A80F05091EC2030C00229623 /* AppDelegate.m in Sources */,
-				A81126E21EC64539002ECAE9 /* ASTabBarController.m in Sources */,
+				A81127081EC667D5002ECAE9 /* ASAnotherViewController.m in Sources */,
+				A811270D1EC667D5002ECAE9 /* ASTabBarController.m in Sources */,
+				A81127071EC667D5002ECAE9 /* ASAnotherRootViewController.m in Sources */,
+				A811270C1EC667D5002ECAE9 /* ASSecondViewController.m in Sources */,
+				A811270F1EC667D5002ECAE9 /* ASXibViewController.m in Sources */,
+				A811270B1EC667D5002ECAE9 /* ASNavigationController.m in Sources */,
+				A81127101EC667D5002ECAE9 /* ViewController.m in Sources */,
+				A811270A1EC667D5002ECAE9 /* ASModalViewController.m in Sources */,
+				A81127041EC667D5002ECAE9 /* AppDelegate.m in Sources */,
 				A80F05061EC2030C00229623 /* main.m in Sources */,
-				A81126E51EC65617002ECAE9 /* ASAnotherRootViewController.m in Sources */,
-				A80F05431EC2684100229623 /* ASXibViewController.m in Sources */,
-				A80F053F1EC25CBF00229623 /* ASSecondViewController.m in Sources */,
-				A80F053C1EC2295500229623 /* ASModalViewController.m in Sources */,
+				A811270E1EC667D5002ECAE9 /* ASTheEndViewController.m in Sources */,
+				A81127091EC667D5002ECAE9 /* ASFirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,6 +422,7 @@
 				A80F050E1EC2030C00229623 /* Base */,
 			);
 			name = Main.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		A80F05121EC2030C00229623 /* LaunchScreen.storyboard */ = {
@@ -391,6 +431,7 @@
 				A80F05131EC2030C00229623 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
