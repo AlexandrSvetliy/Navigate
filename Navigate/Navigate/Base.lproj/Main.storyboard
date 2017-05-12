@@ -138,6 +138,13 @@
                                             <action selector="toAnotherButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="64g-FT-RjY"/>
                                         </connections>
                                     </button>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Ubuntu" translatesAutoresizingMaskIntoConstraints="NO" id="kfu-ff-CaF">
+                                        <rect key="frame" x="139.5" y="313" width="95" height="95"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="95" id="2Zq-xK-bm0"/>
+                                            <constraint firstAttribute="height" constant="95" id="Jzo-iz-vj4"/>
+                                        </constraints>
+                                    </imageView>
                                 </subviews>
                                 <color key="backgroundColor" red="0.46666666666666667" green="0.12941176470588234" blue="0.43529411764705883" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
@@ -150,6 +157,8 @@
                                     <constraint firstItem="LIM-KZ-DKQ" firstAttribute="centerX" secondItem="m4k-MX-FdN" secondAttribute="centerX" id="YY0-CP-uJh"/>
                                     <constraint firstItem="LIM-KZ-DKQ" firstAttribute="top" secondItem="m4k-MX-FdN" secondAttribute="top" constant="120" id="ZOi-WJ-wyV"/>
                                     <constraint firstItem="hkS-RR-0pS" firstAttribute="centerX" secondItem="m4k-MX-FdN" secondAttribute="centerX" id="hye-3C-Ora"/>
+                                    <constraint firstItem="kfu-ff-CaF" firstAttribute="centerX" secondItem="m4k-MX-FdN" secondAttribute="centerX" id="jWd-AR-rfS"/>
+                                    <constraint firstItem="kfu-ff-CaF" firstAttribute="top" secondItem="hkS-RR-0pS" secondAttribute="bottom" constant="52" id="m29-GU-eZ2"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -341,4 +350,7 @@
             <point key="canvasLocation" x="133.59999999999999" y="790.25487256371821"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Ubuntu" width="142" height="142"/>
+    </resources>
 </document>

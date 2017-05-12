@@ -21,8 +21,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cof_orange_hex.png" translatesAutoresizingMaskIntoConstraints="NO" id="ItX-Hq-Lmt">
-                                <rect key="frame" x="139.5" y="286" width="95" height="95"/>
+                            <imageView clipsSubviews="YES" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Ubuntu" translatesAutoresizingMaskIntoConstraints="NO" id="ItX-Hq-Lmt">
+                                <rect key="frame" x="140" y="286" width="95" height="95"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="95" id="Spn-bP-5nx"/>
                                     <constraint firstAttribute="width" constant="95" id="yoJ-zz-KS5"/>
@@ -42,6 +42,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="cof_orange_hex.png" width="285" height="285"/>
+        <image name="Ubuntu" width="142" height="142"/>
     </resources>
 </document>
