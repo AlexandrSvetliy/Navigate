@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vxd-ja-g4H">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vxd-ja-g4H">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -173,9 +173,9 @@
                     <navigationItem key="navigationItem" id="ONA-BA-Wgg"/>
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
                     <connections>
-                        <outlet property="toAnotherStoryButton" destination="hkS-RR-0pS" id="WiT-q4-M2V"/>
-                        <outlet property="toFirstButton" destination="LIM-KZ-DKQ" id="rLj-qi-p3a"/>
-                        <outlet property="toXibButton" destination="XVp-TQ-6Qs" id="hWA-Ea-XIQ"/>
+                        <outletCollection property="buttonsCollection" destination="LIM-KZ-DKQ" id="Jmj-Gg-6Zq"/>
+                        <outletCollection property="buttonsCollection" destination="XVp-TQ-6Qs" id="j6d-YV-T3U"/>
+                        <outletCollection property="buttonsCollection" destination="hkS-RR-0pS" id="m9A-4C-yQx"/>
                         <segue destination="b1M-jN-F57" kind="show" identifier="sequeToFirstController" id="xl2-t1-f3f"/>
                     </connections>
                 </viewController>
@@ -322,8 +322,8 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="backButton" destination="PZ4-ha-Mlu" id="jzo-bW-D8a"/>
-                        <outlet property="mainButton" destination="f8r-DE-lkw" id="u9R-na-8zf"/>
+                        <outletCollection property="buttonsCollection" destination="f8r-DE-lkw" id="2ZU-tU-Lhw"/>
+                        <outletCollection property="buttonsCollection" destination="PZ4-ha-Mlu" id="RYe-gx-YZs"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="G06-OH-1WX" userLabel="First Responder" sceneMemberID="firstResponder"/>

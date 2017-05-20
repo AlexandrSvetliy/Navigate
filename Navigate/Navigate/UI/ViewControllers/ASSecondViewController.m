@@ -9,8 +9,7 @@
 #import "ASSecondViewController.h"
 
 @interface ASSecondViewController ()
-@property (strong, nonatomic) IBOutlet UIButton *mainButton;
-@property (strong, nonatomic) IBOutlet UIButton *backButton;
+@property (strong, nonatomic) IBOutletCollection(UIButton) NSArray *buttonsCollection;
 @end
 
 @implementation ASSecondViewController
@@ -20,19 +19,14 @@
     [self drawInit];
 }
 - (void)drawInit {
-    [self.mainButton.layer setBorderWidth:1.0];
-    [self.mainButton.layer setBorderColor:[[UIColor colorWithRed:0.20 green:0.20 blue:0.20 alpha:1.0] CGColor]];
-    [self.mainButton.layer setCornerRadius:4.0];
-    [self.mainButton.layer setShadowOffset:CGSizeMake(2, 4)];
-    [self.mainButton.layer setShadowColor:[[UIColor colorWithRed:0.20 green:0.20 blue:0.20 alpha:1.0] CGColor]];
-    [self.mainButton.layer setShadowOpacity:0.5];
-    
-    [self.backButton.layer setBorderWidth:1.0];
-    [self.backButton.layer setBorderColor:[[UIColor colorWithRed:0.20 green:0.20 blue:0.20 alpha:1.0] CGColor]];
-    [self.backButton.layer setCornerRadius:4.0];
-    [self.backButton.layer setShadowOffset:CGSizeMake(2, 4)];
-    [self.backButton.layer setShadowColor:[[UIColor colorWithRed:0.20 green:0.20 blue:0.20 alpha:1.0] CGColor]];
-    [self.backButton.layer setShadowOpacity:0.5];
+    [self.buttonsCollection enumerateObjectsUsingBlock:^(UIButton* button, NSUInteger idx, BOOL *stop) {
+        [button.layer setBorderWidth:1.0];
+        [button.layer setBorderColor:[[UIColor colorWithRed:0.20 green:0.20 blue:0.20 alpha:1.0] CGColor]];
+        [button.layer setCornerRadius:4.0];
+        [button.layer setShadowOffset:CGSizeMake(2, 4)];
+        [button.layer setShadowColor:[[UIColor colorWithRed:0.20 green:0.20 blue:0.20 alpha:1.0] CGColor]];
+        [button.layer setShadowOpacity:0.5];
+    }];
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

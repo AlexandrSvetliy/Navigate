@@ -9,9 +9,7 @@
 #import "ViewController.h"
 
 @interface ViewController ()
-@property (weak, nonatomic) IBOutlet UIButton *toFirstButton;
-@property (strong, nonatomic) IBOutlet UIButton *toXibButton;
-@property (strong, nonatomic) IBOutlet UIButton *toAnotherStoryButton;
+@property (strong, nonatomic) IBOutletCollection(UIButton) NSArray *buttonsCollection;
 @end
 
 @implementation ViewController
@@ -22,35 +20,22 @@
     [self drawInit];
 }
 - (void)drawInit {
-    [self.navigationController.navigationBar setBarTintColor:[UIColor colorWithRed:0.17 green:0.00 blue:0.12 alpha:1.0]];
-    [self.navigationController.navigationBar setTintColor:[UIColor colorWithRed:0.93 green:0.46 blue:0.30 alpha:1.0]];
-    [self.navigationController.navigationBar setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor colorWithRed:0.95 green:0.91 blue:0.94 alpha:1.0]}];
-    self.navigationController.navigationBar.translucent = NO;
-    self.navigationController.navigationBar.barStyle = UIStatusBarStyleLightContent;
+    UINavigationBar *navBar = self.navigationController.navigationBar;
+    [navBar setBarTintColor:[UIColor colorWithRed:0.17 green:0.00 blue:0.12 alpha:1.0]];
+    [navBar setTintColor:[UIColor colorWithRed:0.93 green:0.46 blue:0.30 alpha:1.0]];
+    [navBar setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor colorWithRed:0.95 green:0.91 blue:0.94 alpha:1.0]}];
+    navBar.translucent = NO;
+    navBar.barStyle = UIStatusBarStyleLightContent;
     
-    [self.toFirstButton.layer setBorderWidth:1.0];
-    [self.toFirstButton.layer setBorderColor:[[UIColor colorWithRed:0.20 green:0.20 blue:0.20 alpha:1.0] CGColor]];
-    [self.toFirstButton.layer setCornerRadius:4.0];
-    [self.toFirstButton.layer setShadowOffset:CGSizeMake(2, 4)];
-    [self.toFirstButton.layer setShadowColor:[[UIColor colorWithRed:0.20 green:0.20 blue:0.20 alpha:1.0] CGColor]];
-    [self.toFirstButton.layer setShadowOpacity:0.5];
-    
-    [self.toXibButton.layer setBorderWidth:1.0];
-    [self.toXibButton.layer setBorderColor:[[UIColor colorWithRed:0.20 green:0.20 blue:0.20 alpha:1.0] CGColor]];
-    [self.toXibButton.layer setCornerRadius:4.0];
-    [self.toXibButton.layer setShadowOffset:CGSizeMake(2, 4)];
-    [self.toXibButton.layer setShadowColor:[[UIColor colorWithRed:0.20 green:0.20 blue:0.20 alpha:1.0] CGColor]];
-    [self.toXibButton.layer setShadowOpacity:0.5];
-    
-    [self.toAnotherStoryButton.layer setBorderWidth:1.0];
-    [self.toAnotherStoryButton.layer setBorderColor:[[UIColor colorWithRed:0.20 green:0.20 blue:0.20 alpha:1.0] CGColor]];
-    [self.toAnotherStoryButton.layer setCornerRadius:4.0];
-    [self.toAnotherStoryButton.layer setShadowOffset:CGSizeMake(2, 4)];
-    [self.toAnotherStoryButton.layer setShadowColor:[[UIColor colorWithRed:0.20 green:0.20 blue:0.20 alpha:1.0] CGColor]];
-    [self.toAnotherStoryButton.layer setShadowOpacity:0.5];
-    
+    [self.buttonsCollection enumerateObjectsUsingBlock:^(UIButton* button, NSUInteger idx, BOOL *stop) {
+        [button.layer setBorderWidth:1.0];
+        [button.layer setBorderColor:[[UIColor colorWithRed:0.20 green:0.20 blue:0.20 alpha:1.0] CGColor]];
+        [button.layer setCornerRadius:4.0];
+        [button.layer setShadowOffset:CGSizeMake(2, 4)];
+        [button.layer setShadowColor:[[UIColor colorWithRed:0.20 green:0.20 blue:0.20 alpha:1.0] CGColor]];
+        [button.layer setShadowOpacity:0.5];
+    }];
 }
-
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
 }
@@ -68,6 +53,5 @@
     viewController.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal;
     [self presentViewController:viewController animated:YES completion:NULL];
 }
-
 
 @end

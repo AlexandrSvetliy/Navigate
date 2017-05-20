@@ -9,8 +9,7 @@
 #import "ASAnotherViewController.h"
 
 @interface ASAnotherViewController ()
-@property (strong, nonatomic) IBOutlet UIButton *backButton;
-@property (strong, nonatomic) IBOutlet UIButton *tabBarButton;
+@property (strong, nonatomic) IBOutletCollection(UIButton) NSArray *buttonsCollection;
 @end
 
 @implementation ASAnotherViewController
@@ -20,19 +19,14 @@
     [self drawInit];
 }
 - (void)drawInit {
-    [self.tabBarButton.layer setBorderWidth:1.0];
-    [self.tabBarButton.layer setBorderColor:[[UIColor colorWithRed:0.20 green:0.20 blue:0.20 alpha:1.0] CGColor]];
-    [self.tabBarButton.layer setCornerRadius:4.0];
-    [self.tabBarButton.layer setShadowOffset:CGSizeMake(2, 4)];
-    [self.tabBarButton.layer setShadowColor:[[UIColor colorWithRed:0.20 green:0.20 blue:0.20 alpha:1.0] CGColor]];
-    [self.tabBarButton.layer setShadowOpacity:0.5];
-    
-    [self.backButton.layer setBorderWidth:1.0];
-    [self.backButton.layer setBorderColor:[[UIColor colorWithRed:0.20 green:0.20 blue:0.20 alpha:1.0] CGColor]];
-    [self.backButton.layer setCornerRadius:4.0];
-    [self.backButton.layer setShadowOffset:CGSizeMake(2, 4)];
-    [self.backButton.layer setShadowColor:[[UIColor colorWithRed:0.20 green:0.20 blue:0.20 alpha:1.0] CGColor]];
-    [self.backButton.layer setShadowOpacity:0.5];
+    [self.buttonsCollection enumerateObjectsUsingBlock:^(UIButton* button, NSUInteger idx, BOOL *stop) {
+        [button.layer setBorderWidth:1.0];
+        [button.layer setBorderColor:[[UIColor colorWithRed:0.20 green:0.20 blue:0.20 alpha:1.0] CGColor]];
+        [button.layer setCornerRadius:4.0];
+        [button.layer setShadowOffset:CGSizeMake(2, 4)];
+        [button.layer setShadowColor:[[UIColor colorWithRed:0.20 green:0.20 blue:0.20 alpha:1.0] CGColor]];
+        [button.layer setShadowOpacity:0.5];
+    }];
 }
 
 #pragma mark - Actions
